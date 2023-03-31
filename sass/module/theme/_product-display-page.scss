@@ -1,0 +1,100 @@
+.product {
+  margin-top: 20px;
+
+  .product-details {
+    padding: 0 40px 40px 40px;
+
+    .product-title {
+      margin: 0;
+    }
+
+    .from-price {
+      font-size: 24px;
+      font-weight: $font-weight-bold;
+    }
+
+    .est-delivery {
+      color: $color-dark-green;
+    }
+
+    .options {
+      border-top: 1px solid $border-color;
+      border-bottom: 1px solid $border-color;
+
+      .dropdown-title {
+        span {
+          display: block;
+        }
+
+        .label {
+          margin-bottom: 10px;
+          font-weight: $font-weight-bold;
+        }
+      }
+    }
+
+    .cta {
+      display: flex;
+      margin: 30px 0;
+
+    }
+
+    .product-quantity {
+      display: flex;
+    }
+  }
+
+  .additional-item {
+    padding: 5px 0;
+  }
+
+  .dropbtn {
+    padding: 16px;
+    font-size: 16px;
+    border: 1px solid $border-color;
+    color: $color-black;
+    cursor: pointer;
+  }
+
+  .dropdown {
+    width: 100%;
+    margin: 20px 0 10px 0;
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    width: 100%;
+    border: 1px solid $border-color;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    color: $color-black;;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+}
+
+// Tablet
+// ------------------------------------------------
+
+@media (min-width: $breakpoint-tablet) {
+  .product {
+    display: flex;
+    margin-top: 50px;
+
+    .product-image {
+      width: 50%;
+    }
+
+    .product-details {
+      width: 50%;
+      padding: 0 40px 40px 40px;
+    }
+  }
+}

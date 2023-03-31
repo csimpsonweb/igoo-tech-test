@@ -1,0 +1,16 @@
+// @import base
+@import "module/base/variables";
+@import "module/base/typography";
+
+// @import theme
+@import "module/theme/theme";
+@import "module/theme/header";
+@import "module/theme/footer";
+@import "module/theme/homepage";
+@import "module/theme/product-display-page";
+
+.owl-carousel .item {
+  height: 10rem;
+  background: #4DC7A0;
+  padding: 1rem;
+}
