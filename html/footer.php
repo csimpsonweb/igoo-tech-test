@@ -1,6 +1,6 @@
     <footer>
         <span class="copyright">
-            &copy; copyright - Carl Simpson - Igoo Tech Test
+            &copy; copyright - <a href="http://www.carlsimpson.co.uk/">Carl Simpson</a> - igoo tech test
         </span>
     </footer>
 

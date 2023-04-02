@@ -4,28 +4,23 @@ p {
   font-size: 14px;
 }
 
-a {
-  &:visited {
-    color: $color-white;
-  }
-}
-
 h1 {
   font-size: 24px;
   letter-spacing: 1px;
 }
+
 h2 {
   font-size: 20px;
 }
+
 h2 {
   font-size: 18px;
 }
-//
-// Tablet
-// ------------------------------------------------
 
-@media (min-width: $breakpoint-tablet) {
+a {
+  color: $color-black;
 
-
-
+  &:visited {
+    color: $color-black;
+  }
 }

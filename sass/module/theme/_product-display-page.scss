@@ -53,7 +53,6 @@
     .cta {
       display: flex;
       margin: 30px 0;
-
     }
 
     .product-quantity {
@@ -179,6 +178,7 @@
     margin-right: 5px;
   }
 }
+
 .box {
   border: 1px solid $border-color;
   height: 48px;
@@ -256,6 +256,7 @@
     margin-right: 5px;
   }
 }
+
 .select {
   position: relative;
   display: flex;
@@ -264,23 +265,27 @@
   border-style: solid;
   border-color: $border-color;
 }
+
 .select-trigger {
   position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0 22px;
-  font-size: 16px;
-  font-weight: 300;
-  color: #3b3b3b;
+  font-size: 14px;
   height: 50px;
   line-height: 50px;
-  background: #ffffff;
+  background: $color-white;
   cursor: pointer;
   border-width: 1px 0 1px 0;
   border-style: solid;
   border-color: $border-color;
 }
+
+.colour-select-trigger {
+  border: 1px solid $border-color;
+}
+
 .custom-options {
   position: absolute;
   display: block;
@@ -289,31 +294,55 @@
   right: 0;
   border: 1px solid $border-color;
   border-top: 0;
-  background: #fff;
+  background: $color-white;
   transition: all 0.5s;
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
   z-index: 2;
 }
+
 .select.open .custom-options {
   opacity: 1;
   visibility: visible;
   pointer-events: all;
 }
+
 .custom-option {
   position: relative;
   display: block;
-  padding: 0 22px 0 22px;
-  font-size: 16px;
-  font-weight: 300;
-  color: #3b3b3b;
+  padding: 5px 22px 5px 5px;
+  font-size: 14px;
   cursor: pointer;
   transition: all 0.5s;
+  border-top: 1px solid $border-color;
+
+  &:hover {
+    cursor: pointer;
+    background-color: #b2b2b2;
+  }
 }
-.custom-option:hover {
-  cursor: pointer;
-  background-color: #b2b2b2;
+
+.steelcut {
+  height: 50px;
+  width: 50px;
+  margin-right: 10px;
+}
+
+.custom-options-container {
+  display: flex;
+}
+
+.product {
+  .product-details {
+    padding: 0 10px 40px 10px;
+  }
+}
+
+.cushion {
+  padding: 0 10px;
+  margin-right: 10px;
+  background: #CCC;
 }
 
 // Tablet

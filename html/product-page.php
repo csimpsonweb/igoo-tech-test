@@ -4,27 +4,18 @@
             <div class="product-image">
                 <div class="owl-carousel owl-theme">
                     <div class="item">
-                        <img src="assets/images/chair_grey.jpg" class="responsive" alt="A Grey Chair">
+                        <img alt="A Grey Chair" class="responsive" src="assets/images/chair_grey.jpg">
                     </div>
                     <div class="item">
-                        <img src="assets/images/chair_pink.jpg" class="responsive" alt="A Pink Chair">
+                        <img alt="A Pink Chair" class="responsive" src="assets/images/chair_pink.jpg">
                     </div>
                 </div>
             </div>
-
             <div class="product-details">
                 <div class="product-information">
-                    <h1 class="product-title">
-                        Hay About a Lounge Chair - Low
-                    </h1>
-                    <p class="subtitle">
-                        From
-                        <strong>£</strong><span class="from-price">779.00</span>
-                    </p>
-                    <p class="est-delivery">
-                        Made to Order - 6 - 8 Weeks
-                    </p>
-
+                    <h1 class="product-title">Hay About a Lounge Chair - Low</h1>
+                    <p class="subtitle">From <strong>£</strong><span class="from-price">779.00</span></p>
+                    <p class="est-delivery">Made to Order - 6 - 8 Weeks</p>
                     <div class="options">
                         <div class="dropdown">
                             <div class="dropdown-title">
@@ -41,70 +32,84 @@
                                     <div class="custom-options">
                                         <div class="custom-option selected" data-value="steelcut">
                                             <div class="custom-options-container">
-                                                <img alt="" src="">
-                                                <p>steelcut-trio</p>
-                                                <p>£30.00</p>
+                                                <img alt="steelcut fabric" class="steelcut" src="assets/images/swatch_1.jpg">
+                                                <p>Steelcut-Trio</p>
                                             </div>
                                         </div>
                                         <div class="custom-option" data-value="salmon">
-                                            salmon
+                                            <div class="custom-options-container">
+                                                <img alt="salmon fabric" class="steelcut" src="assets/images/swatch_1.jpg">
+                                                <p>Steelcut-Trio</p>
+                                            </div>
+                                        </div>
+                                        <div class="custom-option" data-value="wood">
+                                            <div class="custom-options-container">
+                                                <img alt="wood effect fabric" class="steelcut" src="assets/images/swatch_1.jpg">
+                                                <p>Steelcut-Trio</p>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-
                         <div class="dropdown">
                             <div class="dropdown-title">
-                                <span class="label">
-                                    Colour:
-                                </span>
+                                <span class="label">Colour:</span>
                             </div>
-                            <div id="colour" class="colour dropbtn">Select Your Colour</div>
-                            <div id="colour-options" class="colour-dropdown dropdown-content">
-                                <div class="options-container">
-                                    <div class="box"></div>
-                                    <a href="#">Link 2</a>
+                            <div class="select-wrapper">
+                                <div class="select">
+                                    <div class="colour-select-trigger">
+                                        <div class="" data-value="salmon">
+                                            <div class="custom-options-container">
+                                                <img alt="steelcut fabric" class="steelcut" src="assets/images/swatch_2.jpg">
+                                                <p>SCT526</p>
+                                            </div>
+                                        </div>
+                                        <div class="arrow"></div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-
                         <div class="dropdown">
                             <div class="dropdown-title">
-                                <span class="label">
-                                    Leg Finish:
-                                </span>
+                                <span class="label">Leg Finish:</span>
                             </div>
-                            <div class="finish dropbtn">Select Your Finish</div>
-                            <div class="finish-dropdown dropdown-content">
-                                <div class="options-container">
-                                    <div class="box"></div>
-                                    <a href="#">Link 2</a>
+                            <div class="select-wrapper">
+                                <div class="select">
+                                    <div class="colour-select-trigger">
+                                        <div class="" data-value="salmon">
+                                            <div class="custom-options-container">
+                                                <img alt="steelcut fabric" class="steelcut" src="assets/images/swatch_3.jpg">
+                                                <p>Matt Laquered</p>
+                                            </div>
+                                        </div>
+                                        <div class="arrow"></div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-
                         <div class="dropdown">
                             <div class="dropdown-title">
-                                <span class="label">
-                                    Optional Seat Cushion:
-                                </span>
+                                <span class="label">Optional Seat Cushion:</span>
                             </div>
-                            <div class="optional dropbtn">Select Your Fabric</div>
-                            <div class="optional-dropdown dropdown-content">
-                                <div class="options-container">
-                                    <div class="box"></div>
-                                    <a href="#">Link 2</a>
+                            <div class="select-wrapper">
+                                <div class="select">
+                                    <div class="colour-select-trigger">
+                                        <div class="" data-value="salmon">
+                                            <div class="custom-options-container">
+                                                <img alt="cushion fabric" class="cushion" src="assets/images/cushion.svg">
+                                                <p>In Same Fabric Group 4</p>
+                                            </div>
+                                        </div>
+                                        <div class="arrow"></div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-
                     <div class="selected-options">
                         <div class="product-option">
-                            <p class="option-title">
-                                Hay about A Lounge Chair - Low AAl82: £779.00
-                            </p>
+                            <p class="option-title">Hay about A Lounge Chair - Low AAl82: £779.00</p>
                         </div>
                         <div class="fabric-option">
                             <div class="option-fabric">
@@ -130,34 +135,26 @@
                             <p>Unit Price <span>£918</span></p>
                         </div>
                     </div>
-
                     <div class="actions">
                         <div class="title">
                             <h3>Quantity</h3>
                             <div class="quantity-container">
                                 <div class="quantity-selectors">
                                     <div class="product-quantity">
-
-                                        <input data-min="1" data-max="0" type="text" name="quantity" value="1" readonly="true">
+                                        <input data-max="0" data-min="1" name="quantity" readonly="true" type="text" value="1">
                                         <div class="quantity-selectors-container">
                                             <div class="quantity-selectors">
-                                                <button type="button" class="increment-quantity" aria-label="Add one" data-direction="1">
-                                                    <span class="angle-up"></span>
-                                                </button>
-                                                <button type="button" class="decrement-quantity" aria-label="Subtract one" data-direction="-1" disabled="disabled">
-                                                    <span class="angle-down"></span>
-                                                </button>
+                                                <button aria-label="Add one" class="increment-quantity" data-direction="1" type="button"><span class="angle-up"></span></button> <button aria-label="Subtract one" class="decrement-quantity" data-direction="-1" disabled="disabled" type="button"><span class="angle-down"></span></button>
                                             </div>
                                         </div>
-
-                                     <div class="total-price">Total: £<span>1836.00</span></div>
+                                        <div class="total-price">
+                                            Total: £<span>1836.00</span>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="cta">
-                                <button class="primary">
-                                    Add To Basket
-                                </button>
+                                <button class="primary">Add To Basket</button>
                                 <div class="add-to-favourites">
                                     <div class="favourites">
                                         <div class="box"></div>
@@ -166,29 +163,17 @@
                             </div>
                         </div>
                     </div>
-
                     <div class="additional-content">
                         <ul>
-                            <li class="additional-item">
-                                0% Finance Available
-                            </li>
-                            <li class="additional-item">
-                                Free UK mainland delivery
-                            </li>
-                            <li class="additional-item">
-                                100% Original Designs only
-                            </li>
-                            <li class="additional-item">
-                                Price Match. Found It Cheaper? contact us
-                            </li>
-                            <li class="additional-item">
-                                Trade Discount Available
-                            </li>
+                            <li class="additional-item">0% Finance Available</li>
+                            <li class="additional-item">Free UK mainland delivery</li>
+                            <li class="additional-item">100% Original Designs only</li>
+                            <li class="additional-item">Price Match. Found It Cheaper? contact us</li>
+                            <li class="additional-item">Trade Discount Available</li>
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
-
     </section>
 </div>
