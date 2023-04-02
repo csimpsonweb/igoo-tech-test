@@ -31,9 +31,8 @@ body {
 
 ul {
   padding: 0; }
-
-li {
-  list-style-type: none; }
+  ul li {
+    list-style-type: none; }
 
 label {
   display: block;
@@ -365,7 +364,7 @@ footer {
 .cushion {
   padding: 0 10px;
   margin-right: 10px;
-  background: #CCC; }
+  background: #cccccc; }
 
 @media (min-width: 768px) {
   .product {
@@ -689,7 +688,7 @@ header {
 .cushion {
   padding: 0 10px;
   margin-right: 10px;
-  background: #CCC; }
+  background: #cccccc; }
 
 @media (min-width: 768px) {
   .product {
@@ -712,9 +711,8 @@ body {
 
 ul {
   padding: 0; }
-
-li {
-  list-style-type: none; }
+  ul li {
+    list-style-type: none; }
 
 label {
   display: block;
