@@ -91,7 +91,7 @@ input {
 header {
   border-bottom: 1px solid #cccccc; }
   header .logo {
-    background: no-repeat center url("/assets/images/utility.svg");
+    background: no-repeat center url("../assets/images/utility.svg");
     height: 100px;
     width: 100%; }
 
@@ -125,7 +125,7 @@ footer {
       .product .product-details .est-delivery:before {
         display: inline-block;
         content: ' ';
-        background-image: url("/assets/images/check-circle-green.svg");
+        background-image: url("../assets/images/check-circle-green.svg");
         background-size: 12px 12px;
         height: 12px;
         width: 12px;
@@ -152,7 +152,7 @@ footer {
       top: 0;
       display: inline-block;
       content: ' ';
-      background-image: url("/assets/images/check-circle.svg");
+      background-image: url("../assets/images/check-circle.svg");
       background-size: 12px 12px;
       height: 12px;
       width: 12px;
@@ -170,7 +170,7 @@ footer {
       top: 20px;
       display: inline-block;
       content: ' ';
-      background-image: url("/assets/images/angle-up-grey.svg");
+      background-image: url("../assets/images/angle-up-grey.svg");
       background-size: 12px 12px;
       height: 12px;
       width: 12px;
@@ -187,7 +187,7 @@ footer {
       top: 20px;
       display: inline-block;
       content: ' ';
-      background-image: url("/assets/images/angle-up-grey.svg");
+      background-image: url("../assets/images/angle-up-grey.svg");
       background-size: 12px 12px;
       height: 12px;
       width: 12px;
@@ -216,7 +216,7 @@ footer {
   .angle-up:before {
     display: inline-block;
     content: ' ';
-    background-image: url("/assets/images/angle-up-grey.svg");
+    background-image: url("../assets/images/angle-up-grey.svg");
     background-size: 12px 12px;
     height: 12px;
     width: 12px;
@@ -227,7 +227,7 @@ footer {
   .angle-down:before {
     display: inline-block;
     content: ' ';
-    background-image: url("/assets/images/angle-down-grey.svg");
+    background-image: url("../assets/images/angle-down-grey.svg");
     background-size: 12px 12px;
     height: 12px;
     width: 12px;
@@ -240,7 +240,7 @@ footer {
   .box:after {
     display: block;
     content: ' ';
-    background: url("/assets/images/heart.svg") no-repeat center;
+    background: url("../assets/images/heart.svg") no-repeat center;
     background-size: 24px 24px;
     height: 25px;
     width: 25px;
@@ -286,7 +286,7 @@ footer {
     top: 20px;
     display: inline-block;
     content: ' ';
-    background-image: url("/assets/images/angle-up-grey.svg");
+    background-image: url("../assets/images/angle-up-grey.svg");
     background-size: 12px 12px;
     height: 12px;
     width: 12px;
@@ -376,42 +376,6 @@ footer {
       width: 50%;
       padding: 0 40px 40px 40px; } }
 
-.primary {
-  height: 50px;
-  width: 90%;
-  border: none;
-  font-size: 20px;
-  font-weight: 700;
-  letter-spacing: 1px;
-  background: #240858;
-  color: #ffffff;
-  cursor: pointer; }
-  .primary:hover {
-    background: #000000;
-    color: #ffffff; }
-
-@font-face {
-  font-family: "proximanova";
-  src: url("assets/fonts/proximanova-bold-webfont-webfont.woff") format("woff"); }
-
-p {
-  font-size: 14px; }
-
-h1 {
-  font-size: 24px;
-  letter-spacing: 1px; }
-
-h2 {
-  font-size: 20px; }
-
-h2 {
-  font-size: 18px; }
-
-a {
-  color: #000000; }
-  a:visited {
-    color: #000000; }
-
 footer {
   border-top: 1px solid #cccccc; }
   footer .copyright {
@@ -423,7 +387,7 @@ footer {
 header {
   border-bottom: 1px solid #cccccc; }
   header .logo {
-    background: no-repeat center url("/assets/images/utility.svg");
+    background: no-repeat center url("../assets/images/utility.svg");
     height: 100px;
     width: 100%; }
 
@@ -449,7 +413,7 @@ header {
       .product .product-details .est-delivery:before {
         display: inline-block;
         content: ' ';
-        background-image: url("/assets/images/check-circle-green.svg");
+        background-image: url("../assets/images/check-circle-green.svg");
         background-size: 12px 12px;
         height: 12px;
         width: 12px;
@@ -476,7 +440,7 @@ header {
       top: 0;
       display: inline-block;
       content: ' ';
-      background-image: url("/assets/images/check-circle.svg");
+      background-image: url("../assets/images/check-circle.svg");
       background-size: 12px 12px;
       height: 12px;
       width: 12px;
@@ -494,7 +458,7 @@ header {
       top: 20px;
       display: inline-block;
       content: ' ';
-      background-image: url("/assets/images/angle-up-grey.svg");
+      background-image: url("../assets/images/angle-up-grey.svg");
       background-size: 12px 12px;
       height: 12px;
       width: 12px;
@@ -511,7 +475,7 @@ header {
       top: 20px;
       display: inline-block;
       content: ' ';
-      background-image: url("/assets/images/angle-up-grey.svg");
+      background-image: url("../assets/images/angle-up-grey.svg");
       background-size: 12px 12px;
       height: 12px;
       width: 12px;
@@ -540,7 +504,7 @@ header {
   .angle-up:before {
     display: inline-block;
     content: ' ';
-    background-image: url("/assets/images/angle-up-grey.svg");
+    background-image: url("../assets/images/angle-up-grey.svg");
     background-size: 12px 12px;
     height: 12px;
     width: 12px;
@@ -551,7 +515,7 @@ header {
   .angle-down:before {
     display: inline-block;
     content: ' ';
-    background-image: url("/assets/images/angle-down-grey.svg");
+    background-image: url("../assets/images/angle-down-grey.svg");
     background-size: 12px 12px;
     height: 12px;
     width: 12px;
@@ -564,7 +528,7 @@ header {
   .box:after {
     display: block;
     content: ' ';
-    background: url("/assets/images/heart.svg") no-repeat center;
+    background: url("../assets/images/heart.svg") no-repeat center;
     background-size: 24px 24px;
     height: 25px;
     width: 25px;
@@ -610,7 +574,7 @@ header {
     top: 20px;
     display: inline-block;
     content: ' ';
-    background-image: url("/assets/images/angle-up-grey.svg");
+    background-image: url("../assets/images/angle-up-grey.svg");
     background-size: 12px 12px;
     height: 12px;
     width: 12px;
@@ -767,3 +731,39 @@ input {
 .owl-stage-outer {
   max-width: 590px;
   max-height: 590px; }
+
+.primary {
+  height: 50px;
+  width: 90%;
+  border: none;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  background: #240858;
+  color: #ffffff;
+  cursor: pointer; }
+  .primary:hover {
+    background: #000000;
+    color: #ffffff; }
+
+@font-face {
+  font-family: "proximanova";
+  src: url("assets/fonts/proximanova-bold-webfont-webfont.woff") format("woff"); }
+
+p {
+  font-size: 14px; }
+
+h1 {
+  font-size: 24px;
+  letter-spacing: 1px; }
+
+h2 {
+  font-size: 20px; }
+
+h2 {
+  font-size: 18px; }
+
+a {
+  color: #000000; }
+  a:visited {
+    color: #000000; }
