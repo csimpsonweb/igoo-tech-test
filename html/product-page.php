@@ -25,39 +25,31 @@
                         Made to Order - 6 - 8 Weeks
                     </p>
 
-                    <div class="select-wrapper">
-                        <div class="select">
-                            <div class="select__trigger">
-                                <span>
-                                    Select Your Fabric
-                                </span>
-                                <div class="arrow"></div>
-                            </div>
-                            <div class="custom-options">
-                                <span class="custom-option selected" data-value="steelcut">
-                                    steelcut-trio
-                                </span>
-                                <span class="custom-option" data-value="salmon">
-                                    salmon
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-
                     <div class="options">
                         <div class="dropdown">
                             <div class="dropdown-title">
-                                <span class="label">
-                                    Fabric:
-                                </span>
+                                <span class="label">Fabric:</span>
                             </div>
-                            <div id="fabric" class="fabric dropbtn">
-                                <span>Select Your Fabric</span>
-                            </div>
-                            <div id="fabric-options" class="fabric-dropdown dropdown-content">
-                                <div class="options-container">
-                                    <div class="box"></div>
-                                    <a href="#">Link 2</a>
+                            <div class="select-wrapper">
+                                <div class="select">
+                                    <div class="select-trigger">
+                                        <div>
+                                            Select Your Fabric
+                                        </div>
+                                        <div class="arrow"></div>
+                                    </div>
+                                    <div class="custom-options">
+                                        <div class="custom-option selected" data-value="steelcut">
+                                            <div class="custom-options-container">
+                                                <img alt="" src="">
+                                                <p>steelcut-trio</p>
+                                                <p>£30.00</p>
+                                            </div>
+                                        </div>
+                                        <div class="custom-option" data-value="salmon">
+                                            salmon
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>

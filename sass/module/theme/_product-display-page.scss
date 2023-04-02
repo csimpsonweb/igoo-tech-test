@@ -95,7 +95,7 @@
       top: 20px;
       display: inline-block;
       content: ' ';
-      background-image: url('/assets/images/angle-down-grey.svg');
+      background-image: url('/assets/images/angle-up-grey.svg');
       background-size: 12px 12px;
       height: 12px;
       width: 12px;
@@ -116,7 +116,7 @@
       top: 20px;
       display: inline-block;
       content: ' ';
-      background-image: url('/assets/images/angle-down-grey.svg');
+      background-image: url('/assets/images/angle-up-grey.svg');
       background-size: 12px 12px;
       height: 12px;
       width: 12px;
@@ -227,7 +227,6 @@
   display: flex;
 }
 
-
 .image,
 .swatch {
   height: 60px;
@@ -238,6 +237,85 @@
 .prod {
   display: block;
 }
+
+.select-wrapper {
+  position: relative;
+  user-select: none;
+  width: 100%;
+
+  &:after {
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    display: inline-block;
+    content: ' ';
+    background-image: url('/assets/images/angle-up-grey.svg');
+    background-size: 12px 12px;
+    height: 12px;
+    width: 12px;
+    margin-right: 5px;
+  }
+}
+.select {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  border-width: 0 1px 0 1px;
+  border-style: solid;
+  border-color: $border-color;
+}
+.select-trigger {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 22px;
+  font-size: 16px;
+  font-weight: 300;
+  color: #3b3b3b;
+  height: 50px;
+  line-height: 50px;
+  background: #ffffff;
+  cursor: pointer;
+  border-width: 1px 0 1px 0;
+  border-style: solid;
+  border-color: $border-color;
+}
+.custom-options {
+  position: absolute;
+  display: block;
+  top: 100%;
+  left: 0;
+  right: 0;
+  border: 1px solid $border-color;
+  border-top: 0;
+  background: #fff;
+  transition: all 0.5s;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  z-index: 2;
+}
+.select.open .custom-options {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: all;
+}
+.custom-option {
+  position: relative;
+  display: block;
+  padding: 0 22px 0 22px;
+  font-size: 16px;
+  font-weight: 300;
+  color: #3b3b3b;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.custom-option:hover {
+  cursor: pointer;
+  background-color: #b2b2b2;
+}
+
 // Tablet
 // ------------------------------------------------
 
