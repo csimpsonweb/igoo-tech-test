@@ -8,5 +8,7 @@
     <script src="assets/web/js/owl.carousel.min.js"></script>
     <script src="assets/web/js/main.js"></script>
     <script src="assets/web/js/quantity-selectors.js"></script>
+    <script src="assets/web/js/dropdown.js"></script>
+
     </body>
 </html>

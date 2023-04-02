@@ -4,10 +4,10 @@
             <div class="product-image">
                 <div class="owl-carousel owl-theme">
                     <div class="item">
-                        <img src="assets/images/chair_grey.jpg" class="responsive" alt="">
+                        <img src="assets/images/chair_grey.jpg" class="responsive" alt="A Grey Chair">
                     </div>
                     <div class="item">
-                        <img src="assets/images/chair_pink.jpg" class="responsive" alt="">
+                        <img src="assets/images/chair_pink.jpg" class="responsive" alt="A Pink Chair">
                     </div>
                 </div>
             </div>
@@ -24,6 +24,25 @@
                     <p class="est-delivery">
                         Made to Order - 6 - 8 Weeks
                     </p>
+
+                    <div class="select-wrapper">
+                        <div class="select">
+                            <div class="select__trigger">
+                                <span>
+                                    Select Your Fabric
+                                </span>
+                                <div class="arrow"></div>
+                            </div>
+                            <div class="custom-options">
+                                <span class="custom-option selected" data-value="steelcut">
+                                    steelcut-trio
+                                </span>
+                                <span class="custom-option" data-value="salmon">
+                                    salmon
+                                </span>
+                            </div>
+                        </div>
+                    </div>
 
                     <div class="options">
                         <div class="dropdown">
