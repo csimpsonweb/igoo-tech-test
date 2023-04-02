@@ -3,18 +3,20 @@
         <div class="product">
             <div class="product-image">
                 <div class="owl-carousel owl-theme">
-                    <!-- to be removed -->
-                    <div class="item"><h4>1</h4></div>
-                    <div class="item"><h4>2</h4></div>
-                    <div class="item"><h4>3</h4></div>
-                    <div class="item"><h4>4</h4></div>
-                    <!-- to be removed -->
+                    <div class="item">
+                        <img src="assets/images/chair_grey.jpg" class="responsive" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="assets/images/chair_pink.jpg" class="responsive" alt="">
+                    </div>
                 </div>
             </div>
 
             <div class="product-details">
                 <div class="product-information">
-                    <h1 class="product-title">Hay About a Lounge Chair - Low</h1>
+                    <h1 class="product-title">
+                        Hay About a Lounge Chair - Low
+                    </h1>
                     <p class="subtitle">
                         From
                         <strong>£</strong><span class="from-price">779.00</span>
@@ -30,8 +32,10 @@
                                     Fabric:
                                 </span>
                             </div>
-                            <div id="fabric" class="dropbtn">Select Your Fabric</div>
-                            <div id="fabric-options" class="dropdown-content">
+                            <div id="fabric" class="fabric dropbtn">
+                                <span>Select Your Fabric</span>
+                            </div>
+                            <div id="fabric-options" class="fabric-dropdown dropdown-content">
                                 <div class="options-container">
                                     <div class="box"></div>
                                     <a href="#">Link 2</a>
@@ -45,8 +49,8 @@
                                     Colour:
                                 </span>
                             </div>
-                            <div id="fabric" class="dropbtn">Select Your Fabric</div>
-                            <div id="fabric-options" class="dropdown-content">
+                            <div id="colour" class="colour dropbtn">Select Your Colour</div>
+                            <div id="colour-options" class="colour-dropdown dropdown-content">
                                 <div class="options-container">
                                     <div class="box"></div>
                                     <a href="#">Link 2</a>
@@ -60,8 +64,8 @@
                                     Leg Finish:
                                 </span>
                             </div>
-                            <div id="fabric" class="dropbtn">Select Your Fabric</div>
-                            <div id="fabric-options" class="dropdown-content">
+                            <div class="finish dropbtn">Select Your Finish</div>
+                            <div class="finish-dropdown dropdown-content">
                                 <div class="options-container">
                                     <div class="box"></div>
                                     <a href="#">Link 2</a>
@@ -75,8 +79,8 @@
                                     Optional Seat Cushion:
                                 </span>
                             </div>
-                            <div id="fabric" class="dropbtn">Select Your Fabric</div>
-                            <div id="fabric-options" class="dropdown-content">
+                            <div class="optional dropbtn">Select Your Fabric</div>
+                            <div class="optional-dropdown dropdown-content">
                                 <div class="options-container">
                                     <div class="box"></div>
                                     <a href="#">Link 2</a>
@@ -126,12 +130,16 @@
                                         <input data-min="1" data-max="0" type="text" name="quantity" value="1" readonly="true">
                                         <div class="quantity-selectors-container">
                                             <div class="quantity-selectors">
-                                                <button type="button" class="increment-quantity" aria-label="Add one" data-direction="1"><span>&#43;</span></button>
-                                                <button type="button" class="decrement-quantity" aria-label="Subtract one" data-direction="-1" disabled="disabled"><span>&#8722;</span></button>
+                                                <button type="button" class="increment-quantity" aria-label="Add one" data-direction="1">
+                                                    <span class="angle-up"></span>
+                                                </button>
+                                                <button type="button" class="decrement-quantity" aria-label="Subtract one" data-direction="-1" disabled="disabled">
+                                                    <span class="angle-down"></span>
+                                                </button>
                                             </div>
                                         </div>
 
-                                        <div class="total-price">Total: £<span>1836.00</span></div>
+                                     <div class="total-price">Total: £<span>1836.00</span></div>
                                     </div>
                                 </div>
                             </div>
@@ -140,7 +148,9 @@
                                     Add To Basket
                                 </button>
                                 <div class="add-to-favourites">
-                                    <3
+                                    <div class="favourites">
+                                        <div class="box"></div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -148,14 +158,23 @@
 
                     <div class="additional-content">
                         <ul>
-                            <li class="additional-item">0% Finance Available</li>
-                            <li class="additional-item">Free UK mainland delivery</li>
-                            <li class="additional-item">100% Original Designs only</li>
-                            <li class="additional-item">Price Match. Found It Cheaper? contact us</li>
-                            <li class="additional-item">Trade Discount Available</li>
+                            <li class="additional-item">
+                                0% Finance Available
+                            </li>
+                            <li class="additional-item">
+                                Free UK mainland delivery
+                            </li>
+                            <li class="additional-item">
+                                100% Original Designs only
+                            </li>
+                            <li class="additional-item">
+                                Price Match. Found It Cheaper? contact us
+                            </li>
+                            <li class="additional-item">
+                                Trade Discount Available
+                            </li>
                         </ul>
                     </div>
-
                 </div>
             </div>
         </div>

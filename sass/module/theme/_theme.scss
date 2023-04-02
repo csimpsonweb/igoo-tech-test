@@ -28,30 +28,18 @@ select {
   padding: 10px;
 }
 
-//
-// Tablet
-// ------------------------------------------------
-
-@media (min-width: $breakpoint-tablet) {
-
-}
-
-
 input {
   max-width: 2rem;
   margin: 0;
   padding: 0.75rem 0;
   text-align: center;
-  border-top: 1px solid grey;
-  border-left: 1px solid grey;
-  border-bottom: 1px solid grey;
-  border-right: 0;
+  border: 1px solid $border-color;
 }
 
 .quantity-selectors-container {
   display: inline-block;
   vertical-align: top;
-  margin: 0;
+  margin: 0 0 0 3px;
   padding: 0;
 }
 
@@ -60,30 +48,56 @@ input {
   flex-direction: column;
   margin: 0;
   padding: 0;
+
+  button {
+    -webkit-appearance: none;
+    appearance: none;
+    margin: 0;
+    border-radius: 0;
+    border: 1px solid $border-color;
+    background-color: $color-white;
+    color: $color-grey;
+
+    &:first-child {
+      border-bottom: 0;
+    }
+
+    button:first-child {
+      border-bottom: 0;
+    }
+
+    button:hover {
+      cursor: pointer;
+    }
+
+    button[disabled="disabled"] {
+      cursor: not-allowed;
+    }
+
+    button[disabled="disabled"] span {
+      opacity: 0.5;
+    }
+
+  }
 }
 
-.quantity-selectors button {
-  -webkit-appearance: none;
-  appearance: none;
-  margin: 0;
-  border-radius: 0;
-  border: 1px solid grey;
-  background-color: #fff;
-  color: grey;
+.responsive {
+  width: 100%;
+  height: auto;
 }
 
-.quantity-selectors button:first-child {
-  border-bottom: 0;
+.owl-stage-outer {
+  max-width: 590px;
+  max-height: 590px;
 }
 
-.quantity-selectors button:hover {
-  cursor: pointer;
-}
 
-.quantity-selectors button[disabled="disabled"] {
-  cursor: not-allowed;
-}
 
-.quantity-selectors button[disabled="disabled"] span {
-  opacity: 0.5;
+
+//
+// Tablet
+// ------------------------------------------------
+
+@media (min-width: $breakpoint-tablet) {
+
 }

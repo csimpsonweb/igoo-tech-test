@@ -1,0 +1,16 @@
+.primary {
+  height: 50px;
+  width: 90%;
+  border: none;
+  font-size: 20px;
+  font-weight: $font-weight-bold;
+  letter-spacing: 1px;
+  background: $primary-button-bg;
+  color: $color-white;
+  cursor: pointer;
+
+  &:hover {
+    background: $color-black;
+    color: $color-white;
+  }
+}
