@@ -24,13 +24,13 @@
       color: $color-dark-green;
 
       &:before {
-        top: 0;
         display: inline-block;
         content: ' ';
         background-image: url('/assets/images/check-circle-green.svg');
         background-size: 12px 12px;
         height: 12px;
         width: 12px;
+        margin-right: 5px;
       }
     }
 
@@ -139,7 +139,6 @@
     position: absolute;
     width: 100%;
     border: 1px solid $border-color;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     z-index: 1;
 
     a {
@@ -201,10 +200,6 @@
 
 .favourites {
   height: 50px;
-}
-
-.total-price {
-  display: none;
 }
 
 .actions {

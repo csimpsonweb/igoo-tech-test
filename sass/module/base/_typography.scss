@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@font-face {
+  font-family: "proximanova";
+  src: url("assets/fonts/proximanova-bold-webfont-webfont.woff") format("woff")
+}
 
 p {
   font-size: 14px;

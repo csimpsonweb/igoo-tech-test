@@ -147,9 +147,6 @@
                                                 <button aria-label="Add one" class="increment-quantity" data-direction="1" type="button"><span class="angle-up"></span></button> <button aria-label="Subtract one" class="decrement-quantity" data-direction="-1" disabled="disabled" type="button"><span class="angle-down"></span></button>
                                             </div>
                                         </div>
-                                        <div class="total-price">
-                                            Total: £<span>1836.00</span>
-                                        </div>
                                     </div>
                                 </div>
                             </div>
